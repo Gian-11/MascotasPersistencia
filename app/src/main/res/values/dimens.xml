@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="acitivty_vertical_margin">16dp</dimen>
+    <dimen name="altura_hueso">33dp</dimen>
+    <dimen name="anchura_hueso">49dp</dimen>
+    <dimen name="text_name_rating">16sp</dimen>
+    <dimen name="text_name_rating2">13sp</dimen>
+    <dimen name="text_name_fragment_profile">25sp</dimen>
+    <dimen name="contact_msg_height">65dp</dimen>
+    <dimen name="cornerRadiusCardV1">34dp</dimen>
+    <dimen name="cornerRadiusCardV2">9dp</dimen>
+    <dimen name="cornerRadiusCardV3">25dp</dimen>
+    <dimen name="elevationCardV1">5dp</dimen>
+    <dimen name="elevationCardV2">8dp</dimen>
+    <dimen name="elevationCardV3">8dp</dimen>
+    <dimen name="hueso_height_cv3">19dp</dimen>
+    <dimen name="hueso_width_cv3">32dp</dimen>
+    <dimen name="photo_height_cv3">97dp</dimen>
+    <dimen name="photo_width_cv3">99dp</dimen>
+    <dimen name="photo_height_cv1">143dp</dimen>
+    <dimen name="photo_width_cv1">246dp</dimen>
+    <dimen name="flag_height">144dp</dimen>
+    <dimen name="flag_width">165dp</dimen>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/actionbar"
+        app:layout_scrollFlags="noScroll"
+        android:id="@+id/miActionBarContacto"
+        >
+    </include>
+
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contacto_nombre"
+        android:inputType="textPersonName"
+        android:autofillHints=""
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contacto_correo"
+        android:inputType="textEmailAddress"
+        android:autofillHints="">
+
+</EditText>
+
+    <EditText
+        android:id="@+id/etMsj"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/contact_msg_height"
+        android:hint="@string/contacto_mensaje"
+        android:inputType="text"
+        android:autofillHints=""
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_enviar"
+        android:layout_gravity="center"
+        android:autofillHints=""
+        >
+
+    </Button>
+
+</LinearLayout>

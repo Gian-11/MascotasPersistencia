@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mascotasFavoritas">
+
+    <include android:id="@+id/miActionBar2"
+        layout="@layout/actionbar"
+        >
+
+    </include>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecyclerMascotasFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/miActionBar2"
+        android:padding="8dp"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/txtEmptyFavs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rvRecyclerMascotasFav"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="@string/empty_favs_msg">
+
+    </TextView>
+
+
+
+</RelativeLayout>

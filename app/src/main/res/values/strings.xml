@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MascotasV3</string>
+    <string name="app_name_actionbar">Mascotas</string>
+    <string name="nombreEj">El pepe</string>
+    <string name="imagen_perro">Imagen de un perro</string>
+    <string name="imagen_hueso">Imagen de un hueso</string>
+    <string name="imagen_huesoGold">Imagen de un hueso dorado</string>
+    <string name="ejemplo_rating">5</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="likes">Likes</string>
+    <string name="activity2_title">Mascotas gustadas</string>
+    <string name="mensaje_snackbar">Te ha gustado esta mascota</string>
+    <string name="activityContacto_title">Contacto</string>
+    <string name="contacto_nombre">Nombre</string>
+    <string name="contacto_correo">Correo electrónico</string>
+    <string name="contacto_mensaje">Mensaje</string>
+    <string name="boton_enviar">ENVIAR</string>
+    <string name="activityAbout_title">Acerca de</string>
+    <string name="about_nombre" translatable="false">Gianfranco</string>
+    <string name="about_descripcion">Estudiante. Aprendiz de programación, actualmente realizando un curso de desarrollo en Android de Coursera.</string>
+    <string name="email" translatable="false">Enter your gmail address</string>
+    <string name="email_password" translatable="false">Enter your gmail password</string>
+    <string name="sending_feedback_title">Enviar comentario</string>
+    <string name="sending_feedback">Enviando su comentario, aguarde por favor.</string>
+    <string name="toast_complete">Su comentario ha sido enviado</string>
+    <string name="name_fragment_profile">Fito</string>
+    <string name="email_subject">Prueba</string>
+    <string name="email_body">Mensaje de: </string>
+    <string name="email_2">Email: </string>
+    <string name="mensaje">Mensaje: </string>
+    <string name="empty_favs_msg"> No le has dado like a ninguna mascota.</string>
+    <string name="enable_wifi_msg">Por favor encienda su Wi-Fi</string>
+    <string name="error_name">Ingrese un nombre</string>
+    <string name="error_email">Ingrese un correo válido</string>
+    <string name="error_feedback">Ingrese un mensaje</string>
+
+</resources>

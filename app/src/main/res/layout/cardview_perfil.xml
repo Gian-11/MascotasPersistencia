@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/cornerRadiusCardV3"
+    app:cardBackgroundColor="?attr/background"
+    app:cardElevation="@dimen/elevationCardV3"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="?attr/background"
+        >
+
+
+        <ImageView
+            android:id="@+id/imgHuesoGold"
+            android:layout_width="@dimen/hueso_width_cv3"
+            android:layout_height="@dimen/hueso_height_cv3"
+            android:layout_marginEnd="4dp"
+            android:contentDescription="@string/imagen_huesoGold"
+            android:src="@drawable/huesogold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgFotoCardPefil">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtRatingPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="@string/ejemplo_rating"
+            android:textSize="@dimen/text_name_rating2"
+            app:layout_constraintEnd_toStartOf="@+id/imgHuesoGold"
+            app:layout_constraintTop_toBottomOf="@+id/imgFotoCardPefil" />
+
+        <ImageView
+            android:id="@+id/imgFotoCardPefil"
+            android:layout_width="@dimen/photo_width_cv3"
+            android:layout_height="@dimen/photo_height_cv3"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/imagen_perro"
+            android:src="@drawable/mascota2"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/imgHuesoGold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</com.google.android.material.card.MaterialCardView>
+

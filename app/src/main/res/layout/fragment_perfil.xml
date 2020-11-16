@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.PerfilFragment"
+    android:orientation="vertical"
+    >
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardviewPerro"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            app:cardBackgroundColor="?attr/colorSurface"
+            app:cardElevation="@dimen/elevationCardV2"
+            app:cardCornerRadius="@dimen/cornerRadiusCardV2"
+            >
+
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/cvPerro"
+                android:layout_width="119dp"
+                android:layout_height="109dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="28dp"
+                android:src="@drawable/mascota2"
+                app:civ_border_color="@color/primary"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+            </com.mikhaellopez.circularimageview.CircularImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:text="@string/name_fragment_profile"
+                android:textSize="@dimen/text_name_fragment_profile">
+
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRecyclerMascotasFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+</LinearLayout>

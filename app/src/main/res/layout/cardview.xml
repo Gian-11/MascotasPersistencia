@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="@dimen/acitivty_vertical_margin"
+    app:cardCornerRadius="@dimen/cornerRadiusCardV1"
+    app:cardBackgroundColor="?attr/background"
+    app:cardElevation="@dimen/elevationCardV1"
+    >
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/background"
+
+    >
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="@dimen/photo_width_cv1"
+        android:layout_height="@dimen/photo_height_cv1"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="83dp"
+        android:contentDescription="@string/imagen_perro"
+        android:src="@drawable/mascotaejemplo"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgHueso"
+        android:layout_width="@dimen/anchura_hueso"
+        android:layout_height="@dimen/altura_hueso"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="159dp"
+        android:contentDescription="@string/imagen_hueso"
+        android:src="@drawable/huesoo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="184dp"
+        android:gravity="center"
+        android:text="@string/nombreEj"
+        android:textSize="@dimen/text_name_rating"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFoto" />
+
+    <ImageView
+        android:id="@+id/imgHuesoGold"
+        android:layout_width="@dimen/anchura_hueso"
+        android:layout_height="@dimen/altura_hueso"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imagen_huesoGold"
+        android:src="@drawable/huesogold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/ejemplo_rating"
+        android:textSize="@dimen/text_name_rating"
+        app:layout_constraintEnd_toStartOf="@+id/imgHuesoGold"
+        app:layout_constraintTop_toBottomOf="@+id/imgFoto" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>

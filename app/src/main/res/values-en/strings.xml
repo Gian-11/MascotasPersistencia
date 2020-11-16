@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PetsV3</string>
+    <string name="nombreEj">El pepe</string>
+    <string name="imagen_perro">Image of a dog</string>
+    <string name="imagen_hueso">Image of a bone</string>
+    <string name="imagen_huesoGold">Image of a gold bone</string>
+    <string name="ejemplo_rating">5</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_about">About</string>
+    <string name="likes">Likes</string>
+    <string name="activity2_title">Liked pets</string>
+    <string name="mensaje_snackbar">You\'ve liked this pet</string>
+    <string name="activityContacto_title">Contact</string>
+    <string name="contacto_nombre">Name</string>
+    <string name="contacto_correo">Email address</string>
+    <string name="contacto_mensaje">Feedback</string>
+    <string name="boton_enviar">SEND</string>
+    <string name="activityAbout_title">About</string>
+    <string name="about_descripcion">Student. Programming trainee, currently taking a course in Android Development at www.coursera.org</string>
+    <string name="sending_feedback_title">Send feedback</string>
+    <string name="sending_feedback">Sending your feedback, please wait.</string>
+    <string name="toast_complete">Feedback sent</string>
+    <string name="name_fragment_profile">Fito</string>
+    <string name="email_subject">Test</string>
+    <string name="email_body">"Message from: "</string>
+    <string name="email_2">"Email: "</string>
+    <string name="mensaje">"Message: "</string>
+    <string name="empty_favs_msg">You haven\'t given like to any pet.</string>
+    <string name="app_name_actionbar">Pets</string>
+    <string name="enable_wifi_msg">Please turn on your Wi-Fi</string>
+    <string name="error_name">Enter a name</string>
+    <string name="error_email">Enter a valid email address</string>
+    <string name="error_feedback">Enter your feedback</string>
+</resources>
