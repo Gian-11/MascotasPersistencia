@@ -16,7 +16,7 @@ Para la creación de la base de datos se utilizó el siguiente modelo:
 
   Aclaración:  
 
-*Para que funcione el JavaMail (pre configurado para gmail) hay que reemplazar los valores email (por tu gmail) e email_password (por tu contraseña de gmail) en el archivo strings.xml y permitir el acceso de aplicaciones
+*Para que funcione el JavaMail (pre configurado para gmail) hay que reemplazar los valores email (por tu gmail) e email_password (por tu contraseña de gmail) en el archivo strings.xml y la línea 93 del archivo /app/src/main/java/com/gian/mascotasfinal/Contact.java por el o los destinatarios del email a enviar. También hay que permitir el acceso de aplicaciones
 poco seguras a tu cuenta de Google desde aquí: https://www.google.com/settings/security/lesssecureapps*
   
   
